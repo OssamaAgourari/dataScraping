@@ -264,7 +264,7 @@ def render_comparisons(df):
             y=tier_counts.values,
             title='Number of Models by Performance Tier',
             color=tier_counts.index,
-            color_discrete_sequence=px.colors.sequential.RdYlGn
+            color_discrete_sequence=px.colors.qualitative.Set2
         )
         fig.update_layout(
             xaxis_title='Performance Tier',
